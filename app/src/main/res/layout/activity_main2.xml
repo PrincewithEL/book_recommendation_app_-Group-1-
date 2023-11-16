@@ -12,7 +12,7 @@
         android:layout_width="165dp"
         android:layout_height="131dp"
         android:layout_marginStart="83dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="83dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,31 +24,31 @@
         android:layout_width="302dp"
         android:layout_height="67dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
-        android:textColorHint="@color/black"
-        android:textStyle="italic"
         android:hint="Kindly Enter Your Email Address..."
         android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="177dp"
-        android:text="Login"
+        android:text="Register"
+        android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -57,29 +57,47 @@
         android:layout_width="302dp"
         android:layout_height="67dp"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="98dp"
         android:ems="10"
-        android:textColorHint="@color/black"
-        android:textStyle="italic"
         android:hint="Kindly Enter Your Password..."
         android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="302dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:hint="Kindly Confirm Your Password..."
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="298dp"
         android:layout_height="61dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="9dp"
         android:layout_marginEnd="57dp"
-        android:text="Login"
+        android:text="Register"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -91,9 +109,25 @@
         android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Don't Have An Account ? Click Here To Register."
+        android:text="Have An Account ? Click Here To Login."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="302dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="53dp"
+        android:ems="10"
+        android:hint="Kindly Enter Your Fullname..."
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
