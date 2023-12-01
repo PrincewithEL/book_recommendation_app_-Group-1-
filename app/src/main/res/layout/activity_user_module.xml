@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_module"
+    android:background="@color/user_bg">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/book_1"
+        android:contentDescription="@string/todo5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="179dp"
+        android:text="@string/welcome_user"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/recommend"
+        android:layout_width="266dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/get_a_recommendation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="266dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="157dp"
+        android:text="@string/logout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recommend" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3474120643587438/2285347019"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <ImageView
+        android:id="@+id/adImg"
+        android:layout_width="390dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout"
+        app:srcCompat="@drawable/advertisement" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

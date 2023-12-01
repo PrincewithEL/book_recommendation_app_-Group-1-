@@ -2,5 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="login_bg">#60EADA</color>
+    <color name="login_bg">#51F3E5</color>
+    <color name="user_bg">#C6BB00FF</color>
+    <color name="administrator_bg">#FFD600</color>
 </resources>

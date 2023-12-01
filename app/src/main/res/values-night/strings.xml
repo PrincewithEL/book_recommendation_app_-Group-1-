@@ -1,12 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Book Recommendations App</string>
-    <string name="clear_fields">Clear Fields</string>
     <string name="pick_an_image">Pick An Image</string>
     <string name="add_book">Add Book</string>
     <string name="back">Back</string>
     <string name="author_s">Author(s)</string>
     <string name="name">Name</string>
-    <string name="date_of_publication">Date of Publication</string>
     <string name="description">Description</string>
     <string name="genre_s">Genre(s)</string>
     <string name="page_count">Page Count</string>
@@ -15,7 +13,6 @@
     <string name="add_a_book">Add A Book</string>
     <string name="select_reading_level">Select Reading Level:</string>
     <string name="add_a_book1">Add A Book</string>
-    <string name="todo1">TODO</string>
     <string name="logout">Logout</string>
     <string name="welcome_administrator">Welcome, Administrator!</string>
     <string name="view_books">View Books</string>
@@ -23,38 +20,21 @@
     <string name="submit_criteria">Submit Criteria</string>
     <string name="back1">Back</string>
     <string name="genre_s1">Genre(s)</string>
-    <string name="todo2">TODO</string>
     <string name="give_a_recommendation">Give A Recommendation</string>
     <string name="select_reading_level1">Select Reading Level:</string>
-    <string name="login">Login</string>
-    <string name="kindly_enter_your_email_address">Kindly Enter Your Email Address...</string>
     <string name="kindly_enter_your_password">Kindly Enter Your Password...</string>
     <string name="todo3">TODO</string>
     <string name="login1">Login</string>
-    <string name="don_t_have_an_account_click_here_to_register">Don\'t Have An Account ? Click Here To Register.</string>
     <string name="register">Register</string>
     <string name="kindly_enter_your_fullname">Kindly Enter Your Fullname...</string>
     <string name="kindly_enter_your_email_address1">Kindly Enter Your Email Address...</string>
-    <string name="kindly_enter_your_password1">Kindly Enter Your Password...</string>
-    <string name="kindly_confirm_your_password">Kindly Confirm Your Password...</string>
-    <string name="todo4">TODO</string>
-    <string name="register1">Register</string>
-    <string name="have_an_account_click_here_to_login">Have An Account ? Click Here To Login.</string>
     <string name="todo5">TODO</string>
     <string name="logout1">Logout</string>
-    <string name="get_a_recommendation">Get A Recommendation</string>
-    <string name="welcome_user">Welcome, User!</string>
-    <string name="back2">Back</string>
-    <string name="back3">Back</string>
     <string name="delete">Delete</string>
     <string name="update">Update</string>
     <string name="todo6">TODO</string>
     <string name="author">Author</string>
     <string name="description1">Description</string>
-    <string name="genre">Genre</string>
     <string name="book_name">Book Name</string>
     <string name="reading_level">Reading Level</string>
-    <string name="todo7">TODO</string>
-    <string name="oh_no_the_book_s_requested_for_weren_t_found_kindly_try_again_later">Oh no! The book(s) requested for weren\'t found, kindly try again later.</string>
-    <string name="not_found">Not Found</string>
 </resources>

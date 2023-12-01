@@ -14,10 +14,12 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="29dp"
         android:layout_marginEnd="83dp"
+        android:contentDescription="@string/todo3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/main_icon" />
+        app:srcCompat="@drawable/main_icon"
+        tools:ignore="ImageContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -29,12 +31,13 @@
         android:ems="10"
         android:textColorHint="@color/black"
         android:textStyle="italic"
-        android:hint="Kindly Enter Your Email Address..."
+        android:hint="@string/kindly_enter_your_email_address"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView2"
@@ -43,8 +46,9 @@
         android:layout_marginStart="176dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="177dp"
-        android:text="Login"
-        android:textSize="40sp"
+        android:text="@string/login1"
+        android:fontFamily="cursive"
+        android:textSize="60sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,12 +66,14 @@
         android:ems="10"
         android:textColorHint="@color/black"
         android:textStyle="italic"
-        android:hint="Kindly Enter Your Password..."
+        android:hint="@string/kindly_enter_your_password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:passwordToggleEnabled = "true"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button"
@@ -76,10 +82,11 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="57dp"
-        android:text="Login"
+        android:text="@string/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -91,7 +98,7 @@
         android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Don't Have An Account ? Click Here To Register."
+        android:text="@string/don_t_have_an_account_click_here_to_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
